@@ -1,0 +1,20 @@
+.controls-wrapper {
+    display: inline-block;
+}
+
+#events {
+    border: 1px solid;
+    width: 200px;
+    height: 150px;
+    overflow-y: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#events > li {
+    display: table-row;
+}
+
+.controls {
+    text-align: right;
+}
