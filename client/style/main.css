@@ -1,10 +1,14 @@
+canvas {
+    border: 1px solid;
+}
+
 .controls-wrapper {
-    display: inline-block;
+    display: table;
+    width: 400px;
 }
 
 #events {
     border: 1px solid;
-    width: 200px;
     height: 150px;
     overflow-y: auto;
     padding-top: 10px;
@@ -17,4 +21,18 @@
 
 .controls {
     text-align: right;
+}
+
+#chat-form {
+    display: flex;
+}
+
+#chat {
+    width: 100%;
+    margin-right: 5px;
+}
+
+#say {
+    padding-left: 20px;
+    padding-right: 20px;
 }
